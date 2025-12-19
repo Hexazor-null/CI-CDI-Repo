@@ -6,15 +6,18 @@ The workflow automates three main stages: build, test, and deploy.
 All stages are executed through shell scripts and are designed to be directly integrated into a CI/CD pipeline.
 
 ## Project Structure
-.
+
 ├── app/
 │   └── index.html  
+|
 ├── docker/
-│   └── Dockerfile  
+│   └── Dockerfile
+|
 ├── scripts/
 │   ├── build.sh  
 │   ├── test.sh  
 │   └── deploy.sh  
+|
 └── README.md  
 
 ## Build Stage
@@ -62,3 +65,4 @@ After successful execution:
 - The Docker image is built
 - The application passes the test stage
 - The application is deployed and accessible at http://localhost:8080
+
